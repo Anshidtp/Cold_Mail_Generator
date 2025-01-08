@@ -1,6 +1,6 @@
 # Cold_Mail_Generator
 AI Powered Cold Mail Generator using Meta Llama 3.1
-![Demo](sample\sample_video.gif)
+![Demo](https://github.com/Anshidtp/Cold_Mail_Generator/blob/main/sample/sample_video.gif)
 
 ## Overview
 
@@ -88,11 +88,11 @@ A powerful, AI-driven **Cold Email Generator** that creates personalized job app
 ### API Documentation
 
 Request body:
- ![RequestBody](sample\request.png)
+ ![RequestBody](https://github.com/Anshidtp/Cold_Mail_Generator/blob/main/sample/request.png)
 
 
 Response:
- ![ResponseBody](sample\response.png)
+ ![ResponseBody](https://github.com/Anshidtp/Cold_Mail_Generator/blob/main/sample/response.png)
 
 #### Troubleshooting 🔧
 
