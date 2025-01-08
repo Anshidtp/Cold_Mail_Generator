@@ -32,11 +32,9 @@
 #     st.set_page_config(layout="wide", page_title="Cold Email Generator", page_icon="📧")
 #     create_streamlit_app(chain, portfolio, clean_text)
 
-# backend/main.py
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import List
 
@@ -56,8 +54,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Serve static frontend files
-# app.mount("/", StaticFiles(directory="./frontend"), name="static")
 
 class URLRequest(BaseModel):
     url: str
